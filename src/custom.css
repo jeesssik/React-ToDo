@@ -1,0 +1,49 @@
+body{
+    background-color: #FFEEED;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 26px;
+}
+
+.titulo{
+    font-family: 'Delicious Handrawn', cursive;
+    color: #541039;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+
+.input-border-bottom {
+    height: 42px;
+    background-color: #FFEEED;
+    font-family: 'Delicious Handrawn', cursive;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Color y estilo del borde inferior */
+    outline: none;
+  }
+
+  .input-border-bottom input{
+ font-size: 23px;
+  }
+
+.input-border-bottom :placeholder {
+      /* Estilos de la fuente del marcador de posición */
+      font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+      font-size: 14px; /* Cambia el tamaño de la fuente según tus preferencias */
+      color: #999; /* Cambia el color según tus preferencias */
+    }
+  
+    .boton-pastel {
+      background-color: #e3a9d2; /* Color de fondo pastel */
+      border: none;
+      border-radius: 20px; /* Borde redondeado */
+      padding: 10px 20px; /* Espaciado interno */
+      font-family: 'Delicious Handrawn', cursive;
+      font-size: 16px; /* Tamaño de la fuente */
+      color: #fff; /* Color del texto */
+      cursor: pointer;
+    }
+    
+    .boton-pastel:hover {
+      /* Estilos adicionales al pasar el cursor sobre el botón */
+      background-color: #b14197; /* Color de fondo pastel en hover */
+    }
